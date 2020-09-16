@@ -1,9 +1,19 @@
-<p>servers works!</p>
+<label> Server Name</label>
+<input
+type="text"
+class="form-control"
+(input)="onUpdateServerName($event)"> 
+<!-- creat form field -->
+
+<!-- <p>servers works!</p> -->
 <button
 class="btn.btn-primary"
 [disabled]="!allowNewServer" 
 (click)="onCreateServer() ">Add Server</button>
+<!-- create Botton -->
+
 <!-- <p [innerText]="allowNewServer"></p> -->
 <p>{{ serverCreationStatus}}</p>
+<!-- calling server creation from servers.component.ts -->
 <app-server></app-server>
 <app-server></app-server>
