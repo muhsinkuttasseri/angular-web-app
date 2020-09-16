@@ -7,13 +7,15 @@ import { HttpClientModule }from '@angular/common/http'
 import { AppComponent } from './app.component';
 import { WarningComponent } from './warning/warning.component';
 import { SuccessComponent } from './success/success.component';
+import { ServersComponent } from './servers/servers.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     WarningComponent,
-    SuccessComponent 
+    SuccessComponent,
+    ServersComponent 
     
   ],
   imports: [
